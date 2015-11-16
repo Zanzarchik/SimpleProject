@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SimpleProject">
+		<class>model.ContactInformation</class>
+		<class>model.InformationType</class>
+		<class>model.LoanAplication</class>
+		<class>model.LoanAplicationPK</class>
+		<class>model.LoanProduct</class>
+		<class>model.LoanStatusDate</class>
+		<class>model.LoanStatusType</class>
+		<class>model.Person</class>
+		<class>model.PersonsHasContactInformation</class>
+		<class>model.PersonsHasContactInformationPK</class>
+	</persistence-unit>
+</persistence>
